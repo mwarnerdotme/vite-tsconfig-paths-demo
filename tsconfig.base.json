@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@vite-tsconfig-paths-demo/my-lib1": ["libs/my-lib1/src/index.ts"],
+      "@vite-tsconfig-paths-demo/my-lib2": ["libs/my-lib2/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
