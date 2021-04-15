@@ -1,3 +1,3 @@
-export function MyLib1() {
-  return <>MyLib1</>
-}
+import * as React from 'react';
+
+export const MyLib1 = () => <>MyLib1</>;
