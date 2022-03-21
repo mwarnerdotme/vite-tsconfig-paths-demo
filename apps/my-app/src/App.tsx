@@ -1,11 +1,11 @@
-import * as React from 'react';
-import { MyLib2 } from '@vite-tsconfig-paths-demo/my-lib2';
+import * as React from 'react'
+import { MyLib2 } from '@vite-tsconfig-paths-demo/my-lib2'
 
 export const App = () => (
   <>
     <MyLib2 />
   </>
-);
+)
 
 // Comment out above, and uncomment below to see it working if both are used
 //
